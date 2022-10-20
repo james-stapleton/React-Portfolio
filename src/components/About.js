@@ -2,7 +2,12 @@ import React from 'react';
 
 export default function About () {
     return (
-        <div id = "about-me">
+        <div id = "about-me" className='row'>
+
+    <img src="../images/IMG_2965.jpg" alt="Profile"></img>
+            
+
+            <div className='col'>
 
             <p>My name is James Stapleton. I'm 28 years old and living in Asbury Park, NJ. I currently 
         work full time as a bartender while also studying computer science full time. With the customer service,
@@ -19,7 +24,7 @@ export default function About () {
             <li>CLI</li>
 
         </ul>
-
+        </div>
             </div>
     )
 }

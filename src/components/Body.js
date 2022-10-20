@@ -1,15 +1,18 @@
-import React from 'react';
-import Card from './Card'
+import React from "react";
+import Card from "./Card";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
-export default function Body() {
-    return (
-        <div>
-            
-            
+export default function Body(props) {
+  return (
+    <div>
+      {props.section === "about" && <About />}
 
-            <div id = "contact"></div>
+      {props.section === "portfolio" && <Projects />}
 
-        </div>
+      {props.section === "contact" && <Contact />}
 
-    )
+    </div>
+  );
 }

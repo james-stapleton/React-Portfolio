@@ -1,14 +1,21 @@
-header {
+.heading {
+    float: top;
+    width: 100%;
     background-color: aliceblue;
 }
 
-header nav {
-    margin-right: 20px;
-    float: right;
-    list-style-type: none;
+.heading h1 {
+    margin: 10px;
+    margin-left: 20px ;
 }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+.heading nav {
+    list-style-type: none;
+    justify-content: right;
+    align-items: right;
+}
+
+.heading nav button {
+    padding: 10px;
+    margin: 10px;
 }

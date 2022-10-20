@@ -1,17 +1,25 @@
 import React from 'react';
 
-export default function Header () {
+export default function Header (props) {
+
+    const style = {
+        color: "red"
+    }
+
     return (
-        <header><h1>James Stapleton Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#project1">Project 1</a></li>
-                <li><a href="#project1">Project 2</a></li>
-            </ul>
+        <section className='heading row'>
+        <h1 className='col'>James Stapleton</h1>
+        <nav className='col'>
+
+        
+
+        <button onClick = {() => props.handleSection("about")}  >About Me</button>
+
+        <button onClick = {() => props.handleSection("portfolio")}>Portfolio</button>
+
+        <button onClick = {() => props.handleSection("contact")}>Contact</button>
+
         </nav>
-    </header>
+    </section>
     )
 }
