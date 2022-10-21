@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e67d98e5.css",
+    "main.js": "/React-Portfolio/static/js/main.e7bbb684.js",
+    "static/media/refactor.png": "/React-Portfolio/static/media/refactor.2a72602e9d508d0804cd.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.e67d98e5.css.map": "/React-Portfolio/static/css/main.e67d98e5.css.map",
+    "main.e7bbb684.js.map": "/React-Portfolio/static/js/main.e7bbb684.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e67d98e5.css",
+    "static/js/main.e7bbb684.js"
+  ]
+}
