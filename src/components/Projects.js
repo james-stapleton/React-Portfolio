@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import seo from '../images/refactor.png';
 
 export default function Projects () {
     return (
@@ -7,7 +8,7 @@ export default function Projects () {
 
                 <Card 
                     projectName = "Cocktail Curator"
-                    image = "refactor.png"
+                    image = {seo}
                     />
 
                 <Card 
