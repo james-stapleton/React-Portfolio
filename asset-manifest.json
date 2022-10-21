@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/build/static/css/main.e67d98e5.css",
-    "main.js": "/React-Portfolio/build/static/js/main.7564606f.js",
-    "static/media/refactor.png": "/React-Portfolio/build/static/media/refactor.2a72602e9d508d0804cd.png",
-    "index.html": "/React-Portfolio/build/index.html",
-    "main.e67d98e5.css.map": "/React-Portfolio/build/static/css/main.e67d98e5.css.map",
-    "main.7564606f.js.map": "/React-Portfolio/build/static/js/main.7564606f.js.map"
+    "main.css": "/React-Portfolio/build/index.html/static/css/main.e67d98e5.css",
+    "main.js": "/React-Portfolio/build/index.html/static/js/main.9dbb0dd0.js",
+    "static/media/refactor.png": "/React-Portfolio/build/index.html/static/media/refactor.2a72602e9d508d0804cd.png",
+    "index.html": "/React-Portfolio/build/index.html/index.html",
+    "main.e67d98e5.css.map": "/React-Portfolio/build/index.html/static/css/main.e67d98e5.css.map",
+    "main.9dbb0dd0.js.map": "/React-Portfolio/build/index.html/static/js/main.9dbb0dd0.js.map"
   },
   "entrypoints": [
     "static/css/main.e67d98e5.css",
-    "static/js/main.7564606f.js"
+    "static/js/main.9dbb0dd0.js"
   ]
 }
